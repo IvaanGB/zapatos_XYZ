@@ -9,7 +9,7 @@
     <string name="h">Man</string>
     <string name="m">Woman</string>
     <string name="errorGenero">Must select gender</string>
-    <string name="selTipo">Must select type</string>
+    <string name="selTipo">Select type</string>
     <string name="zapatilla">Shoe</string>
     <string name="clasico">Classic</string>
     <string name="errorTipo">Must select type</string>
