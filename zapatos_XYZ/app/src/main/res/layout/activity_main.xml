@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:context="zapatoszxy.com.zapatos_xyz.Principal">
+
+        <TextView
+            android:id="@+id/lblTtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblTitulo"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/cmbGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/cmbTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/cmbMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtCantidad"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCotizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="boton"
+        android:text="@string/btnCotizar" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+</LinearLayout>

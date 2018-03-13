@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">zapatos_XYZ</string>
+    <string name="lblTitulo">Zapatos XYZ</string>
+    <string name="txtCantidad">Cantidad</string>
+    <string name="errorCantidad">Debe introducir cantidad válida</string>
+    <string name="btnCotizar">Cotizar</string>
+
+    <string name="selGenero">Seleccione Género</string>
+    <string name="h">Hombre</string>
+    <string name="m">Mujer</string>
+    <string-array name="genero">
+        <item>@string/selGenero</item>
+        <item>@string/h</item>
+        <item>@string/m</item>
+    </string-array>
+    <string name="errorGenero">Debe seleccionar un género</string>
+
+    <string name="Total">Total a pagar: $</string>
+    <string name="selTipo">Seleccione Tipo de Zapato</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clásico</string>
+    <string-array name="tipo">
+        <item>@string/selTipo</item>
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+    <string name="errorTipo">Debe seleccionar un tipo</string>
+
+    <string name="selMarca">Seleccione Marca</string>
+    <string name="nike">Nike</string>
+    <string name="adid">Adidas</string>
+    <string name="pum">Puma</string>
+    <string-array name="marcas">
+        <item>@string/selMarca</item>
+        <item>@string/nike</item>
+        <item>@string/adid</item>
+        <item>@string/pum</item>
+    </string-array>
+    <string name="errorMarca">Debe seleccionar una marca</string>
+
+</resources>
